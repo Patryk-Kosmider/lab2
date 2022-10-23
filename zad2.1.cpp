@@ -16,3 +16,5 @@ int main()
     }
 
     cout << suma;
+ return 0;
+}
