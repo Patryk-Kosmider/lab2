@@ -4,17 +4,19 @@ using namespace std;
 
 int main()
 {
- //zad 1
+    //zad 1
+    cout << "Podaj n: " << endl;
     int n = 0;
     cin >> n;
     int suma = 0;
+    int wynik = 0;
 
-
-    for (int i = 1; i<=n; i++)
+    for (int i = 1; i <= n; i++)
     {
         suma += i;
+        wynik += suma;
     }
 
-    cout << suma;
- return 0;
+    cout << wynik;
+    return 0;
 }
